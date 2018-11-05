@@ -18,7 +18,7 @@ class Navbar extends Component {
   </ul>
   <ul className="navbar-nav ml-auto">
     <li className="nav-item">
-      <a className="nav-link" href="#">Score2</a>
+      <a className="nav-link" href="#">Score: {this.props.score} | HighScore: {this.props.highScore} </a>
     </li>
   </ul>
 </nav>
