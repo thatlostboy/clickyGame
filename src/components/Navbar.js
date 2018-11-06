@@ -8,17 +8,17 @@ class Navbar extends Component {
   
   <ul className="navbar-nav">
     <li className="nav-item">
-      <a className="navbar-brand" href="#">Logo</a>
+      <a className="navbar-brand" href="/">Logo</a>
     </li>
   </ul>
   <ul className="navbar-nav mx-auto">
     <li className="nav-item">
-      <a className="nav-link" href="#">Center Center Center Center Center</a>
+      <a className="navbar-brand" href="/">Clicky Game</a>
     </li>
   </ul>
   <ul className="navbar-nav ml-auto">
     <li className="nav-item">
-      <a className="nav-link" href="#">Score: {this.props.score} | HighScore: {this.props.highScore} </a>
+      <span className="navbar-brand">Score: {this.props.score} | HighScore: {this.props.highScore}</span>
     </li>
   </ul>
 </nav>
